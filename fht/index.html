@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Correlation Explorer in D3.js</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type='text/javascript' src='http://d3js.org/d3.v3.min.js'></script>
+    <script type='text/javascript' src="correxplorer.js"></script>
+    <link rel="stylesheet" type="text/css" href="correxplorer.css">
+</head>
+
+<body>
+    <p>
+        <br>&nbsp;
+        <input type="radio" id="header" name="header_trailer" value="header" checked="true"> Header
+        <input type="radio" id="trailer" name="header_trailer" value="trailer"> Trailer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bytes:
+        <select id="bytes">
+            <option value="4">4 Bytes</option>
+            <option value="8">8 Bytes</option>
+            <option value="16" selected="true">16 Bytes</option>
+        </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Zoom?
+        <input type='text' id="zoom" value="1.">
+    </p>
+    <div class="tooltip" style="opacity: 0.01"></div>
+    <!-- <p>Built with <a href="http://d3js.org/">d3.js</a>.</p> -->
+
+</body>
+
+
+</html>
