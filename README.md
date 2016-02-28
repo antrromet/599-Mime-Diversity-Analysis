@@ -46,3 +46,15 @@ characteristics of the frequency distributions are not addressed. Cross-correlat
 
    Further inspection shows that byte position 0 has a correlation strength of 1 for byte value 71, which corresponds to the ASCII character “G”. The second byte position has a correlation strength of 1 for byte value 72, which corresponds to the ASCII character “I”. This continues through byte values 70 (ASCII “F”) and 56 (ASCII “8”). At byte position five, though, byte values 55 and 57 both show correlation strengths roughly balanced. This indicates that these byte values, which correspond to the ASCII values for “7” and “9” respectively, occurred with almost equal frequency in the input files. (This further indicates that approximately equal numbers of files of each version of the GIF format were loaded into the fingerprint.) Finally, byte position six shows a correlation strength of 1 for byte value 97, corresponding to the ASCII character “a”. 
    Beyond byte position six, there is a much broader distribution of byte values, resulting in lower correlation strengths and lighter marks on the plot.
+   
+## Screenshots
+1. BFA `text/html`
+   ![BFA text/html](screenshots/bfa-text-html.png)
+2. BFA `text/plain`
+   ![BFA text/plain](screenshots/bfa-text-plain.png)
+3. Cross Correlation `image/gif`
+   ![Cross Correlation image/gif](screenshots/cross-correlation-image-gif.png)
+4. Cross Correlation `text/html`
+   ![Cross Correlation text/html](screenshots/cross-correlation-text-html.png)
+5. FHT `image/gif`
+   ![Cross Correlation image/gif](screenshots/fht-image-gif.png)
